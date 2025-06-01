@@ -92,7 +92,7 @@ To run the script:
 ./manage-p2.py stop     # Stop VMs (keep data)
 ./manage-p2.py destroy  # Remove all created VMs, files and networks
 ```
-
+---
 ##📂 Estructura del Proyecto | Project Structure
 CDPS_practica-creativa1/
 
@@ -101,8 +101,9 @@ CDPS_practica-creativa1/
 ├── manage-p2.py              
 ├── lib_vm.py                 
 ├── manage-p2.json      
-├── README.md                
+├── README.md       
 
+---
 ##🧪 Configuración de Ejemplo | Sample Configuration
 ```bash
 {
@@ -110,7 +111,7 @@ CDPS_practica-creativa1/
   "debug": true
 }
 ```
-
+---
 ## 📬 Contacto | Contact
 
 📩 **serguccierrez** → [GitHub Profile](https://github.com/serguccierrez)  
