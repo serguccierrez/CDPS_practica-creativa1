@@ -133,7 +133,7 @@ Available commands:
 | info     | Shows detailed information about each VM.                                   |
 
 
-
+---
 ##📂 Estructura del Proyecto | Project Structure
 CDPS_practica-creativa1/
 
