@@ -76,12 +76,12 @@ Asegúrate de que el directorio de trabajo contenga los siguientes archivos:
 - manage-p2.json
 ```
 Para ejecutar el script:
-
+```bash
 ./manage-p2.py create   # Crea el escenario  
 ./manage-p2.py start    # Arranca las VMs y muestra la consola  
 ./manage-p2.py stop     # Para las VMs (sin eliminar imágenes)  
 ./manage-p2.py destroy  # Elimina VMs, redes y ficheros creados  
-
+```
 Puedes ver todos los comandos disponibles ejecutando:  
 ./manage-p2.py -help
 
