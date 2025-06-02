@@ -13,6 +13,9 @@ Este proyecto consiste en el desarrollo de un script en **Python** que automatiz
 🔵 **EN:**  
 This project involves developing a **Python** script to automate the setup of the virtual test environment for Practice 2. The scenario is based on KVM virtual machines and virtual networks using **Open vSwitch (OVS)**. The script supports automatic creation, startup, shutdown, and destruction of the environment, including network and load balancing configuration.
 
+
+![image](https://github.com/user-attachments/assets/5c5d7c93-c524-42a8-960e-6442eff6b3b8)
+
 ---
 
 ## 🚀 Características | Features
@@ -57,42 +60,75 @@ This project involves developing a **Python** script to automate the setup of th
 
 ## 📦 Instalación y uso | Installation and Usage
 
-🟢 **ES:**  
+🟢 ES:
 Asegúrate de que el directorio de trabajo contenga los siguientes archivos:
 
-- `cdps-vm-base-pc1.qcow2`
-- `plantilla-vm-pc1.xml`
-- `manage-p2.py`
-- `lib_vm.py`
-- `manage-p2.json`
+- cdps-vm-base-pc1.qcow2
+- plantilla-vm-pc1.xml
+- manage-p2.py
+- lib_vm.py
+- manage-p2.json
 
 Para ejecutar el script:
 
-```bash
-./manage-p2.py create   # Crea el escenario
-./manage-p2.py start    # Arranca las VMs y muestra la consola
-./manage-p2.py stop     # Para las VMs (sin eliminar imágenes)
-./manage-p2.py destroy  # Elimina VMs, redes y ficheros creados
-```
+./manage-p2.py create   # Crea el escenario  
+./manage-p2.py start    # Arranca las VMs y muestra la consola  
+./manage-p2.py stop     # Para las VMs (sin eliminar imágenes)  
+./manage-p2.py destroy  # Elimina VMs, redes y ficheros creados  
 
-🔵 **EN**:
+Puedes ver todos los comandos disponibles ejecutando:  
+./manage-p2.py -help
+
+Comandos disponibles:
+
++----------+--------------------------------------------------------------+
+| Orden    | Descripción                                                  |
++----------+--------------------------------------------------------------+
+| create   | Inicializa las máquinas virtuales y crea el escenario.       |
+| start    | Arranca las máquinas virtuales y muestra su consola.         |
+|          | Si no se especifica un nombre, se ejecuta para todas las VM. |
+| stop     | Detiene las máquinas virtuales sin liberar los recursos.     |
+|          | Si no se especifica un nombre, se ejecuta para todas las VM. |
+| destroy  | Libera el escenario y elimina los ficheros creados.          |
+| machines | Te enseña el estado de todas las máquinas virtuales.         |
+| stats    | Muestra estadísticas detalladas de las VM como CPU y memoria |
+| info     | Para ver información detallada de las máquinas.              |
++----------+--------------------------------------------------------------+
+
+🔵 EN:
 Ensure the working directory contains the following files:
 
-- `cdps-vm-base-pc1.qcow2`
-- `plantilla-vm-pc1.xml`
-- `manage-p2.py`
-- `lib_vm.py`
-- `manage-p2.json`
+- cdps-vm-base-pc1.qcow2
+- plantilla-vm-pc1.xml
+- manage-p2.py
+- lib_vm.py
+- manage-p2.json
 
 To run the script:
 
-```bash
-./manage-p2.py create   # Create the environment
-./manage-p2.py start    # Start VMs and show console
-./manage-p2.py stop     # Stop VMs (keep data)
-./manage-p2.py destroy  # Remove all created VMs, files and networks
-```
----
+./manage-p2.py create   # Create the environment  
+./manage-p2.py start    # Start VMs and show console  
+./manage-p2.py stop     # Stop VMs (keep data)  
+./manage-p2.py destroy  # Remove all created VMs, files and networks  
+
+You can list all available commands by running:  
+./manage-p2.py -help
+
+Available commands:
+
++----------+----------------------------------------------------------------+
+| Command  | Description                                                    |
++----------+----------------------------------------------------------------+
+| create   | Initializes virtual machines and creates the environment.      |
+| start    | Starts VMs and shows their console. Runs on all VMs by default.|
+| stop     | Stops VMs without deleting resources. Runs on all by default.  |
+| destroy  | Frees the environment and deletes all generated files.         |
+| machines | Shows the current status of all virtual machines.              |
+| stats    | Displays detailed VM statistics (CPU, memory, etc.).           |
+| info     | Shows detailed information about each VM.                      |
++----------+----------------------------------------------------------------+
+
+
 ##📂 Estructura del Proyecto | Project Structure
 CDPS_practica-creativa1/
 
