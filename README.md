@@ -68,13 +68,13 @@ _The following image shows the basic environment that will be created by the scr
 
 🟢 ES:
 Asegúrate de que el directorio de trabajo contenga los siguientes archivos:
-
+```bash
 - cdps-vm-base-pc1.qcow2
 - plantilla-vm-pc1.xml
 - manage-p2.py
 - lib_vm.py
 - manage-p2.json
-
+```
 Para ejecutar el script:
 
 ./manage-p2.py create   # Crea el escenario  
@@ -109,14 +109,16 @@ Ensure the working directory contains the following files:
 - manage-p2.json
 
 To run the script:
-
+```bash
 ./manage-p2.py create   # Create the environment  
 ./manage-p2.py start    # Start VMs and show console  
 ./manage-p2.py stop     # Stop VMs (keep data)  
 ./manage-p2.py destroy  # Remove all created VMs, files and networks  
-
+```
 You can list all available commands by running:  
+```bash
 ./manage-p2.py -help
+```
 
 Available commands:
 
