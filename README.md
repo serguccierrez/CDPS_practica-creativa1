@@ -82,9 +82,10 @@ Para ejecutar el script:
 ./manage-p2.py stop     # Para las VMs (sin eliminar imágenes)  
 ./manage-p2.py destroy  # Elimina VMs, redes y ficheros creados  
 ```
+```bash
 Puedes ver todos los comandos disponibles ejecutando:  
 ./manage-p2.py -help
-
+```
 Comandos disponibles:
 
 | Orden    | Descripción                                                                 |
