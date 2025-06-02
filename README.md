@@ -101,13 +101,13 @@ Comandos disponibles:
 
 🔵 EN:
 Ensure the working directory contains the following files:
-
+```bash
 - cdps-vm-base-pc1.qcow2
 - plantilla-vm-pc1.xml
 - manage-p2.py
 - lib_vm.py
 - manage-p2.json
-
+```
 To run the script:
 ```bash
 ./manage-p2.py create   # Create the environment  
