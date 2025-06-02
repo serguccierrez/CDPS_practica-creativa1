@@ -134,7 +134,7 @@ Available commands:
 
 
 ---
-##📂 Estructura del Proyecto | Project Structure
+## 📂 Estructura del Proyecto | Project Structure
 CDPS_practica-creativa1/
 
 ├── cdps-vm-base-pc1.qcow2     
@@ -145,7 +145,7 @@ CDPS_practica-creativa1/
 ├── README.md       
 
 ---
-##🧪 Configuración de Ejemplo | Sample Configuration
+## 🧪 Configuración de Ejemplo | Sample Configuration
 ```bash
 {
   "number_of_servers": 3,
