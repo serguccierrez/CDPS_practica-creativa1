@@ -88,17 +88,16 @@ Puedes ver todos los comandos disponibles ejecutando:
 ```
 Comandos disponibles:
 
-| Orden    | Descripción                                                                 |
-|----------|-----------------------------------------------------------------------------|
-| create   | Inicializa las máquinas virtuales y crea el escenario.                      |
-| start    | Arranca las máquinas virtuales y muestra su consola.                        |
-|          | Si no se especifica un nombre, se ejecuta para todas las VM.                |
-| stop     | Detiene las máquinas virtuales sin liberar los recursos.                    |
-|          | Si no se especifica un nombre, se ejecuta para todas las VM.                |
-| destroy  | Libera el escenario y elimina los ficheros creados.                         |
-| machines | Te enseña el estado de todas las máquinas virtuales.                        |
-| stats    | Muestra estadísticas detalladas de las VM como CPU y memoria.               |
-| info     | Para ver información detallada de las máquinas.                             |
+| Orden    | Descripción                                                                                         |
+|----------|---------------------------------------------------------------------------------------------------|
+| create   | Inicializa las máquinas virtuales y crea el escenario.                                            |
+| start    | Arranca las máquinas virtuales y muestra su consola. Si no se especifica un nombre, se ejecuta para todas las VM. |
+| stop     | Detiene las máquinas virtuales sin liberar los recursos. Si no se especifica un nombre, se ejecuta para todas las VM. |
+| destroy  | Libera el escenario y elimina los ficheros creados.                                               |
+| machines | Te enseña el estado de todas las máquinas virtuales.                                              |
+| stats    | Muestra estadísticas detalladas de las VM como CPU y memoria.                                     |
+| info     | Para ver información detallada de las máquinas.                                                   |
+
 
 🔵 EN:
 Ensure the working directory contains the following files:
